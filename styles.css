@@ -218,7 +218,7 @@ margin-bottom: 50px;
     }
     .heroimg img{
         margin-top: 0;
-        width: 80vw;
+        width: 100vw;
     }
     .project1 img{
         width: -webkit-fill-available;
@@ -231,4 +231,5 @@ margin-bottom: 50px;
         padding-right: 10px;
         height: 400px;
     }
+    
 }
