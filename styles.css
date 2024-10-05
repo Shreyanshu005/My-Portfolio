@@ -292,9 +292,9 @@ margin-bottom: 50px;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-    border-radius: inherit; /* Match the border radius of the image */
-    z-index: 3; /* Ensure the overlay is on top */
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: inherit; 
+    z-index: 3; 
 }
 
 
@@ -346,5 +346,68 @@ margin-bottom: 50px;
     .skills{
         width: 70vw;
         margin-left: 15vw;
+    }
+}
+
+
+
+
+body {
+    padding-top: 20px;
+    background-color: #f7f7f7;
+    padding-right: 20px;
+    color: #636363;
+}
+
+.navbar {
+    display: flex;
+   
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+}
+
+.navbar a {
+    color: #636363;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 24px;
+    color: #636363;
+}
+
+@media (max-width: 900px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-toggle:checked + .hamburger + a,
+    .nav-toggle:checked + .hamburger + a + a,
+    .nav-toggle:checked + .hamburger + a + a + a,
+    .nav-toggle:checked + .hamburger + a + a + a + a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+      
     }
 }
