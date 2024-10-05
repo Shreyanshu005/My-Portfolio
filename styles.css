@@ -395,9 +395,9 @@ margin-bottom: 50px;
     }
 
     .nav-toggle:checked + .hamburger + a,
-    .nav-toggle:checked + .hamburger + a + a,
-    .nav-toggle:checked + .hamburger + a + a + a,
-    .nav-toggle:checked + .hamburger + a + a + a + a {
+    .nav-toggle:checked + .hamburger + a + a
+    ,.nav-toggle:checked + .hamburger + a + a + a
+    {
         display: block;
         width: 100%;
         text-align: center;
