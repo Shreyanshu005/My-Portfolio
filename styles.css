@@ -14,6 +14,7 @@ body{
    width: 100%;
    gap: 20px;
    
+ 
    
 
 }
@@ -53,7 +54,7 @@ margin-right: 90px;
 }
 .heroimg{
 margin-top: 160px;
-animation: float 5s ease-in-out infinite; 
+animation: float 3s ease-in-out infinite; 
 
 
 }
@@ -164,6 +165,7 @@ margin-bottom: 50px;
 }
 #Mystery:hover{
     cursor: pointer;
+    
 
 }
 .box a{
@@ -186,18 +188,7 @@ margin-bottom: 50px;
 .contactme a:hover{
     color: black;
 }
-.contactme button{
-  border: none;
-  padding: 10px 20px;
-    border-radius: 50px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.contactme button:hover{
-    cursor: pointer;
-}
+
 .heroimg img{
     width: 500px;
 }
@@ -232,4 +223,15 @@ margin-bottom: 50px;
         height: 400px;
     }
     
+}
+.hero button{
+    color: #636363;
+    border-style: none;
+    background-color: #f7f7f7;
+    border: 1px solid #636363;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.hero button:hover{
+    cursor: pointer;
 }
