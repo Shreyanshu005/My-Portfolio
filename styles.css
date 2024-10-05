@@ -116,6 +116,7 @@ animation: float 5s ease-in-out infinite;
     color: #636363
 }
 .projects {
+    
     padding: 50px 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -145,7 +146,7 @@ animation: float 5s ease-in-out infinite;
     font-variation-settings:
       "slnt" 0;
       padding-bottom: 20px;
-
+margin-bottom: 50px;
 }
 .projects img{
     border: 2px solid white;
@@ -155,10 +156,42 @@ animation: float 5s ease-in-out infinite;
 .project1 button{
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     
 }
-#mystery:hover{
+#Mystery:hover{
     cursor: pointer;
+
+}
+.box a{
+    transition: color 0.5s ease;
+}
+.box a:hover{
+    color: black;
 }
 
+.contactme{
+    text-align: center;
+    font-size: 30px;
+   
+
+}
+.contactme a{
+    color: #636363;
+    transition: color 0.5s ease;
+}
+.contactme a:hover{
+    color: black;
+}
+.contactme button{
+  border: none;
+  padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contactme button:hover{
+    cursor: pointer;
+}
