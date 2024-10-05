@@ -54,10 +54,14 @@ margin-right: 90px;
 }
 .heroimg{
 margin-top: 160px;
+
+
 animation: float 3s ease-in-out infinite; 
 
 
+
 }
+
 .hero p{
     font-size: 1.1rem;
 }
@@ -161,10 +165,17 @@ margin-bottom: 50px;
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
-    
+    transition: background-color 0.5s ease;
+
 }
-#Mystery:hover{
+#Mystery1:hover{
     cursor: pointer;
+    background-color: #e4e4e4;
+
+}
+#Mystery2:hover{
+    cursor: pointer;
+    background-color: #e4e4e4;
     
 
 }
@@ -225,6 +236,7 @@ margin-bottom: 50px;
     
 }
 .hero button{
+    width: 120px;
     color: #636363;
     border-style: none;
     background-color: #f7f7f7;
