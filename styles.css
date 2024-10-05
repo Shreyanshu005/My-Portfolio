@@ -128,13 +128,21 @@ animation: float 3s ease-in-out infinite;
     height: 400px;
     text-align: center;
 }
+.box {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
 .box h1{
     align-self: flex-start;
 }
 .box p{
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight:
+     500;
     font-size: 20px;
     font-style: normal;
     font-variation-settings:
