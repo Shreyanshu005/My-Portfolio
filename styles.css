@@ -323,39 +323,7 @@ margin-bottom: 50px;
         transform: translateX(-700%);
     }
 }
-@media(max-width:900px){
-    .items{
-        flex-direction: column;
-        gap: 0;
-        text-align: center;
-    }
-    .hero{
-        flex-direction: column;
-        margin-top: 400px;
-        margin-left: 0;
-    }
-    .text{
-        margin-right: 0;
-        width: 80vw;
-    }
-    .heroimg img{
-        margin-top: 0;
-        width: 50vw;
-    }
-    .project1 img{
-        width: -webkit-fill-available;
-    }
-    .project1{
-        width: 70vw;
-    }
-    .box{
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 400px;
-    }
-   
-    
-}
+
 @media(max-width:500px){
     .heroimg img{
         width: 100vw;
