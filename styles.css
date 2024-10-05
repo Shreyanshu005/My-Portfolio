@@ -63,7 +63,7 @@ animation: float 3s ease-in-out infinite;
 
 }
 .shadow{
-    filter: opacity(0.5);
+    filter: opacity(0.3);
     margin-top: -80px;
     margin-bottom: 50px;
 }
