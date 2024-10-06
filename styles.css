@@ -1,7 +1,7 @@
 body{
-    padding-top: 20px;
+    /* padding-top: 20px; */
   
-
+margin-top: 0;
     background-color: #f7f7f7;
    
     color: #636363;
@@ -11,12 +11,20 @@ html {
     scroll-behavior: smooth;
 }
 .navbar{
+   
+   background: #f7f7f7;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
     display: flex;
    justify-content: center;
    
    width: 100%;
    gap: 20px;
-
+   align-items: center;
+   height: 50px;
+   border-bottom-left-radius:10px ;
+   border-bottom-right-radius:10px ;
+   position: sticky;
    
  
    
@@ -26,7 +34,7 @@ html {
     font-family: "Afacad Flux", sans-serif;
     position: absolute;
     left: 47px;
-    bottom: -24px;
+    /* bottom: -24px; */
     font-weight: 700;
     font-size: 20px;
 }
@@ -409,6 +417,7 @@ margin-bottom: 50px;
 
     .hamburger {
         display: block;
+        margin-right: auto;
     }
 
     .nav-toggle:checked + .hamburger + a,
@@ -427,6 +436,7 @@ margin-bottom: 50px;
     #form{
         display: none;
     }
+   
 }
 .footer{
     display: flex;
@@ -520,4 +530,23 @@ margin-bottom: 50px;
     .heroimg::before{
         background:none
     }
+    .navbar{
+        height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+
+} 
+}
+
+textarea{
+    resize: none;
+}
+.navbar{
+  
+    position: sticky;
+    top: 0px;
+    z-index:500
 }
