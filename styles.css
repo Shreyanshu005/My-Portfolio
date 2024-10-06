@@ -490,4 +490,16 @@ margin-bottom: 50px;
     transform: translateY(5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.resume{
+    transition: transform 0.3s ease;
+}
+.resume:hover {
+    transform: scale(0.95);
+}
+#contB{
+    transition: transform 0.3s ease;
+}
+#contB:hover {
+    transform: scale(0.95);
+}
 
