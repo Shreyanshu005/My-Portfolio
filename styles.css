@@ -502,4 +502,14 @@ margin-bottom: 50px;
 #contB:hover {
     transform: scale(0.95);
 }
-
+.heroimg{
+    background-image: url(New\ Project\ \(3\).png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+@media(max-width:900px){
+    .heroimg{
+        background:none
+    }
+}
