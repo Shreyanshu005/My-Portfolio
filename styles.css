@@ -7,6 +7,9 @@ body{
     color: #636363;
    
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
    justify-content: center;
@@ -173,7 +176,9 @@ animation: float 3s ease-in-out infinite;
     padding-right: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
     width: 50vw;
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
@@ -482,7 +487,7 @@ margin-bottom: 50px;
 }
 
 .project1:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
